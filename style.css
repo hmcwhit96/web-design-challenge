@@ -1,0 +1,17 @@
+.int-dropwdown {
+    font-size: 13px;
+    background-color: #24b9d1;
+    padding-left: 16px;
+
+}
+
+.dropdown-text {
+    font-size: 20px;
+    color: black;
+}
+
+.jumbo {
+    font-size: large;
+    top: 5%;
+    left: 5%;
+}
