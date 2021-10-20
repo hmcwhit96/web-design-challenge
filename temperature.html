@@ -1,1 +1,168 @@
 <!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude vs. Temperature</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+  <!--Navbar-->
+  <nav class="navbar navbar-light  bg-info navbar-1 white">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">
+      <h2>Latitude Weather Analysis</h2>
+    </a>
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style>
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto dropdown-text">
+
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+
+        <li class="dropdown">
+          <a data-toggle="dropdown" class="dropdown-toggle dropdown-text" href="#">Weather Data Visualizations
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu int-dropwdown">
+            <li class="nav-item">
+              <a class="nav-link " href="temperature.html">Max Temperature</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="humidity.html">Humidity</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cloudiness.html">Cloudiness</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wind-speed.html">Wind Speed</a>
+            </li>
+
+          </ul>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="comparisons.html">Comparing Visualizations</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="data-table.html">Data</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </nav>
+
+
+
+
+  <div class="container mt-4">
+
+    <div class="row g-2">
+      <div class="col-sm-12 col-md-7 shadow bg-white rounded content-area">
+
+        <h1>Latitude vs. Temperature</h1>
+        <br>
+
+        <div class="img-fluid">
+          <img
+            src="Visualizations\Fig1.png"
+            alt="Latitude vs. Max Temperature" style="padding: 0 auto auto 10px" class="img-fluid">
+        </div>
+
+        <div>
+          <p style="padding-top: 20px;">
+            This chart shows the relationship between latitude and maximum temperature. 
+            As the latitude goes further north (approaching the North Pole), the temperature on the given date decreases. 
+            There appears to be more cities in the Northern Hemisphere, especially cities closer to the North Pole. 
+            The cities that are furthest north are about 20 degrees of latitude closer to their respective Pole than 
+            cities in the Southern Hemisphere. This is due to the fact that 68% of the land mass is north of the equator.
+            Similarly, as the latitude goes further south (approaching the South Pole), the temperature on the given date decreases.
+          </p>
+          
+        </div>
+
+
+      </div>
+
+      <div class="col-md-5 shadow bg-white rounded content-area">
+        <div class="visualizations-header">
+          
+          <h2 class="visualizations-header">Visualizations</h2>
+          <br>
+
+          <div class="container">
+            <div class="row">
+              <a href="temperature.html">
+                <div class="dash-img"><img src="Visualizations\Fig1.png"
+                  alt="Latitude vs. Max Temperature"  class="img-thumbnail">
+                </div>
+              </a>
+              <a href="humidity.html">
+                <div class="dash-img"><img src="Visualizations\Fig2.png"
+                  alt="Latitude vs. Humidity" class="img-thumbnail">
+                </div>
+              </a>
+              <a href="cloudiness.html">
+                <div class="dash-img"><img src="Visualizations\Fig3.png"
+                  alt="Latitude vs. Cloudiness" class="img-thumbnail">
+                </div>
+              </a>
+              <a href="wind-speed.html">
+                <div class="dash-img "><img src="Visualizations\Fig4.png"
+                  alt="Latitude vs. Wind Speed" class="img-thumbnail">
+                </div>
+              </a>
+              
+            </div>
+        </div>
+      </div>
+        
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+
+
+
+
+
+
+</html>

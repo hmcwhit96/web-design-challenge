@@ -1,3 +1,11 @@
+body {
+    background-color:#F5F7FA;
+}
+
+.content-area {
+    padding: 24px 48px;
+}
+
 .int-dropwdown {
     font-size: 13px;
     background-color: #24b9d1;
@@ -10,8 +18,54 @@
     color: black;
 }
 
-.jumbo {
-    font-size: large;
-    top: 5%;
-    left: 5%;
+.sum-image {
+    float: left;
+}
+
+.dash-img {
+    height: 75%;
+    width: 75%;
+    margin: 5px auto 5px auto;
+}
+
+.visualizations-header {
+    text-align: center;
+    padding-top: 15px; 
+    padding-left: 4px;
+    color: black;
+    background-color: white;
+
+}
+
+.img-fluid {
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 2000px) {
+    p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    h2 {
+        font-size: 24px;
+        }
+}
+
+@media only screen and (max-width: 750px) {
+    h2 {
+        font-size: 32px;
+        }
+    
+    
 }
